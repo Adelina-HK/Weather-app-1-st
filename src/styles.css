@@ -1,0 +1,114 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif "Josefin Sans", sans-serif;
+  background-image: linear-gradient(120deg, #b8f7fc 0%, #87b7fa 100%);
+}
+h1 {
+  color: rgb(60, 168, 231);
+  font-style: oblique;
+  text-align: left;
+  margin: 0 auto;
+  padding: 10px;
+}
+#currentDayOfWeek {
+  font-size: 22px;
+  text-decoration-line: underline;
+}
+p3 {
+  font-size: 18px;
+}
+.form-control {
+  box-shadow: 3px 3px 3px rgb(174, 218, 243);
+  color: rgb(174, 218, 243);
+  border: 1px solid black;
+}
+#searchingButton {
+  border-radius: 4px solid rgb(174, 218, 243);
+  box-shadow: 3px 3px 3px rgb(174, 218, 243);
+}
+#searchingFormButton {
+  display: flex;
+  justify-content: space-around;
+}
+#buttonCurrentPosition {
+  border-radius: 4px solid rgb(174, 218, 243);
+  box-shadow: 3px 3px 3px rgb(174, 218, 243);
+}
+.temperatureCandF {
+  font-size: 16px;
+  position: relative;
+  top: -13px;
+}
+.sun {
+  width: 220px;
+  display: block;
+  margin: 0 auto;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+.sun:hover {
+  width: 230px;
+}
+#mainCity {
+  font-size: 40px;
+  font-family: monospace;
+  text-decoration-color: inherit;
+}
+
+.container2 {
+  position: relative;
+  right: 48px;
+  bottom: -31px;
+  margin: 0 auto;
+  padding: 5px 15px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.container3 {
+  position: relative;
+  right: 103px;
+  bottom: -52px;
+  margin: 0 auto;
+  font-size: 16px;
+  padding: 5px 15px;
+  text-align: center;
+}
+.card-img-top {
+  padding: 10px;
+  width: 80px;
+  display: flex;
+  margin: 5px auto;
+  animation: 3s ease-in 1s infinite reverse both running slidein;
+}
+.card-img-top:hover {
+  position: relative;
+  bottom: 20px;
+  width: 95px;
+}
+#weatherDescription {
+  font-size: 15px;
+}
+
+.card-body {
+  text-align: center;
+}
+.container5 {
+  display: block;
+  margin-left: 12px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.card {
+  box-shadow: 4px 3px 1px rgb(174, 218, 243);
+}
+.card:hover {
+  box-shadow: 6px 10px 1px rgb(142, 181, 204);
+}
+.days {
+  position: relative;
+  top: 5px;
+}
+.days:hover {
+  font-weight: bolder;
+}
